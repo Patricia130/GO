@@ -5,8 +5,6 @@ workflows:
     environment:
       flutter: stable
       xcode: latest
-      vars:
-        JAVA_HOME: /usr/lib/jvm/java-11-openjdk
     scripts:
       - name: Clean
         script: flutter clean
